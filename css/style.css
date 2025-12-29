@@ -241,7 +241,7 @@ button:hover {
 
 
 header {
-    background: linear-gradient(135deg, #002D6E, #00689D);
+    background: linear-gradient(135deg, #FF8C00, #00689D);
     color: white;
     padding: 2rem;
     text-align: center;
@@ -264,7 +264,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #00689D;
+    background-color: #FF8C00;
     text-decoration: none;
 }
 
