@@ -1,8 +1,8 @@
 :root {
-  --bg: #FF4500;
+  --bg: #778899;
   --text: #000000;
-  --card: #002D6E;
-  --primary: #FF4500;
+  --card: #FF4500;
+  --primary: #778899;
 }
 html, body { background: var(--bg); color: var(--text); }
 header, nav, footer { background: var(--card); }
