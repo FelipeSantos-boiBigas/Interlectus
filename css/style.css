@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Pacifico', cursive;
-    background-color: #FF8C00;
+    background-color: #BFC2C3;
     color: #000;
     line-height: 1.6;
     text-align: justify;
@@ -241,7 +241,7 @@ button:hover {
 
 
 header {
-    background: linear-gradient(135deg, #000000, #FF8C00);
+    background: linear-gradient(135deg, #002D6E, #00689D);
     color: white;
     padding: 2rem;
     text-align: center;
@@ -264,7 +264,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #000000;
+    background-color: #00689D;
     text-decoration: none;
 }
 
@@ -293,7 +293,7 @@ table {
 }
 
 form {
-    background-color: #FF8C00;
+    background-color: #F8F9FA;
     padding: 2rem;
     border-radius: 10px;
     border: 2px solid #BFC2C3;
