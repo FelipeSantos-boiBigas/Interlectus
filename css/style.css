@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Pacifico', cursive;
-    background-color: #FFA500;
+    background-color: #BFC2C3;
     color: #000;
     line-height: 1.6;
     text-align: justify;
@@ -32,7 +32,7 @@ h2 {
     font-size: 2rem;
     margin: 1.5rem 0 1rem 0;
     text-align: center;
-    background: linear-gradient(135deg, #FFA500, #FFA500);
+    background: linear-gradient(135deg, #00689D, #002D6E);
     padding: 0.5rem;
 }
 
@@ -241,7 +241,7 @@ button:hover {
 
 
 header {
-    background: linear-gradient(135deg, #FFA500, #FFA500);
+    background: linear-gradient(135deg, #002D6E, #00689D);
     color: white;
     padding: 2rem;
     text-align: center;
@@ -306,7 +306,7 @@ ul {
 }
 
 strong {
-    color: #FFFAFA;
+    color: #00FFFF;
     background-color: rgba(0, 104, 157, 0.1);
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
