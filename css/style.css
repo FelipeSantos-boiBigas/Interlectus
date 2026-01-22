@@ -77,7 +77,7 @@ p {
 .botao-principal:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(135deg, #F0F8FF, #000000);
+    background: linear-gradient(135deg, #F0F8FF, #FFFFFF);
 }
 
 
