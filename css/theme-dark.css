@@ -1,7 +1,7 @@
 :root {
   --bg: #808080;
   --text: #00FFFF;
-  --card: #00FFFF;
+  --card: #FF8C00;
   --primary: #00FFFF;
 }
 html, body { background: var(--bg); color: var(--text); }
