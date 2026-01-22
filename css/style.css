@@ -23,7 +23,7 @@ h1 {
     margin: 1rem 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     letter-spacing: 1.5px;
-    border-bottom: 3px solid #00689D;
+    border-bottom: 3px solid #FFA500;
     padding-bottom: 0.5rem;
 }
 
@@ -32,7 +32,7 @@ h2 {
     font-size: 2rem;
     margin: 1.5rem 0 1rem 0;
     text-align: center;
-    background: linear-gradient(135deg, #00689D, #002D6E);
+    background: linear-gradient(135deg, #FFA500, #FF4500);
     padding: 0.5rem;
 }
 
@@ -41,7 +41,7 @@ p {
     margin-bottom: 1rem;
     line-height: 1.8;
     text-align: justify;
-    color: white;
+    color: black;
     font-size: 1.1rem;
 }
 
@@ -50,7 +50,7 @@ p {
 }
 
 .destaque {
-    background-color: #F0F8FF;
+    background-color: #FF8C00;
     color: white;
     padding: 1rem;
     border-radius: 8px;
@@ -219,7 +219,7 @@ textarea:focus {
 
 
 button {
-    background: linear-gradient(135deg, #00689D, #002D6E);
+    background: linear-gradient(135deg, #FF8C00, #FF8C00);
     color: white;
     padding: 12px 25px;
     border: none;
@@ -234,14 +234,14 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(135deg, #002D6E, #001A3F);
+    background: linear-gradient(135deg, #FF8C00, #FF8C00);
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 
 header {
-    background: linear-gradient(135deg, #002D6E, #00689D);
+    background: linear-gradient(135deg, #FF8C00, #FF8C00);
     color: white;
     padding: 2rem;
     text-align: center;
@@ -306,7 +306,7 @@ ul {
 }
 
 strong {
-    color: #00FFFF;
+    color: #FFFF00;
     background-color: rgba(0, 104, 157, 0.1);
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
