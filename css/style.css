@@ -17,7 +17,7 @@ body {
 
 
 h1 {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 2.5rem;
     margin: 1rem 0;
@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-    color: white;
+    color: black;
     font-size: 2rem;
     margin: 1.5rem 0 1rem 0;
     text-align: center;
