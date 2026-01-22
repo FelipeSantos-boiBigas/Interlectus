@@ -50,17 +50,17 @@ p {
 }
 
 .destaque {
-    background-color: #00689D;
+    background-color: #F0F8FF;
     color: white;
     padding: 1rem;
     border-radius: 8px;
-    border-left: 5px solid #002D6E;
+    border-left: 5px solid #000000;
     margin: 1rem 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .botao-principal {
-    background: linear-gradient(135deg, #00689D, #002D6E);
+    background: linear-gradient(135deg, #F0F8FF, #000000);
     color: white;
     padding: 12px 25px;
     border: none;
@@ -77,7 +77,7 @@ p {
 .botao-principal:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(135deg, #002D6E, #001A3F);
+    background: linear-gradient(135deg, #F0F8FF, #000000);
 }
 
 
