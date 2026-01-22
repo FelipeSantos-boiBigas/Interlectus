@@ -60,7 +60,7 @@ p {
 }
 
 .botao-principal {
-    background: linear-gradient(135deg, #F0F8FF, #000000);
+    background: linear-gradient(135deg, #F0F8FF, #FFFFFF);
     color: white;
     padding: 12px 25px;
     border: none;
