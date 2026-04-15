@@ -320,6 +320,5 @@ strong {
 }
 
 .logo img {
-  max-width: 200px;
-  height: auto;
+    height: 60px;
 }
