@@ -60,7 +60,7 @@ Poderia, por gentileza, me informar valores e prazos?
 
 Desde já, agradeço pela atenção.`;
 
-    const numero = "5519989874111"; 
+    const numero = "551994662703"; 
 
     window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`);
 });
