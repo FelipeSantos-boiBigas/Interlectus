@@ -1,11 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     fetch("dados.json")
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Erro ao carregar dados.json");
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(dados => {
             const tabela = document.getElementById("catalogo-body");
 
@@ -22,7 +17,5 @@ document.addEventListener("DOMContentLoaded", function () {
                 tabela.appendChild(linha);
             });
         })
-        .catch(error => {
-            console.error("Erro:", error);
-        });
+        .catch(error => console.error("Erro ao carregar dados:", error));
 });
