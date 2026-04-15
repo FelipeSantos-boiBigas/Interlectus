@@ -157,7 +157,7 @@ img {
 
 img:hover {
     transform: scale(1.05);
-    border-color: #002D6E;
+    border-color: #000000;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
@@ -320,5 +320,5 @@ strong {
 }
 
 .logo img {
-    height: 60px;
+    height: 180px;
 }
