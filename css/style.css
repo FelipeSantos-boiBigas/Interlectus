@@ -324,3 +324,27 @@ strong {
 .logo img {
     height: 230px;
 }
+
+
+.form-orcamento {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+}
