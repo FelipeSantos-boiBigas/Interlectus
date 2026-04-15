@@ -1,66 +1,66 @@
 [
   {
     "id": 1,
-    "imagem": "https://tse1.mm.bing.net/th/id/OIP.oThHyqgSuqK4ma1A292O7AHaHa?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "produto": "Matemática",
-    "material": "Iniciante",
-    "info": 12,
+    "imagem": "IMG/correr/cod1.jpg",
+    "produto": "COD01",
+    "material": "Alumínio",
+    "info": "Portão de correr de coloração branca sem furos"
   },
   
   {
     "id": 2,
-    "imagem": "https://tse1.mm.bing.net/th/id/OIP.oThHyqgSuqK4ma1A292O7AHaHa?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "produto": "Matemática",
-    "material": "Iniciante",
-    "info": 12,
+    "imagem": "IMG/correr/cod2.jpg",
+    "produto": "COD02",
+    "material": "Alumínio",
+    "info": "Portão de correr de coloração preta com furos"
   },
   
   {
     "id": 3,
-    "imagem": "https://tse1.mm.bing.net/th/id/OIP.oThHyqgSuqK4ma1A292O7AHaHa?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "produto": "Matemática",
-    "material": "Iniciante",
-    "info": 12,
+    "imagem": "IMG/basculante/b05.jpg",
+    "produto": "B05",
+    "material": "Alumínio",
+    "info": "Portão basculante de coloração preta personalizado superior"
   },
   
   {
     "id": 4,
-    "imagem": "https://tse1.mm.bing.net/th/id/OIP.oThHyqgSuqK4ma1A292O7AHaHa?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "produto": "Matemática",
-    "material": "Iniciante",
-    "info": 12,
+    "imagem": "IMG/basculante/b02.jpg",
+    "produto": "B02",
+    "material": "Alumínio",
+    "info": "Portão basculante de coloração branca com personalização simples"
   },
   
   {
     "id": 5,
-    "imagem": "https://tse1.mm.bing.net/th/id/OIP.oThHyqgSuqK4ma1A292O7AHaHa?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "produto": "Matemática",
-    "material": "Iniciante",
-    "info": 12,
+    "imagem": "IMG/gp/g01.jpg",
+    "produto": "G01",
+    "material": "Alumínio",
+    "info": "Guarda corpo simples de coloração preta"
   },
   
   {
     "id": 6,
-    "imagem": "https://tse1.mm.bing.net/th/id/OIP.oThHyqgSuqK4ma1A292O7AHaHa?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "produto": "Matemática",
-    "material": "Iniciante",
-    "info": 12,
+    "imagem": "IMG/gp/g02.jpg",
+    "produto": "G02",
+    "material": "Alumínio",
+    "info": "Guarda corpo simples de coloração preta"
   },
   
   {
     "id": 7,
-    "imagem": "https://tse1.mm.bing.net/th/id/OIP.oThHyqgSuqK4ma1A292O7AHaHa?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "produto": "Matemática",
-    "material": "Iniciante",
-    "info": 12,
+    "imagem": "IMG/cobertura/cb01.jpg",
+    "produto": "CB01",
+    "material": "Alumínio",
+    "info": "Cobeertura"
   },
   
   {
     "id": 8,
-    "imagem": "https://tse1.mm.bing.net/th/id/OIP.oThHyqgSuqK4ma1A292O7AHaHa?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "produto": "Matemática",
-    "material": "Iniciante",
-    "info": 12,
+    "imagem": "IMG/cobertura/cb04.jpg",
+    "produto": "CB04",
+    "material": "Alumínio",
+    "info": "Cobeertura"
   }
   
 
