@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", function () {
-    fetch("dados.json")
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("./dados.json")
         .then(response => response.json())
         .then(dados => carregarTabela(dados))
-        .catch(error => console.error("Erro ao carregar dados:", error));
+        .catch(erro => console.error("Erro ao carregar JSON:", erro));
 });
