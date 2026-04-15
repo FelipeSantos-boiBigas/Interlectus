@@ -1,9 +1,0 @@
-:root {
-  --bg: #DCDCDC;
-  --text: #111111;
-  --card: #FF8C00;
-  --primary: #00FFFF;
-}
-html, body { background: var(--bg); color: var(--text); }
-header, nav, footer { background: var(--card); }
-a { color: var(--primary); }}
