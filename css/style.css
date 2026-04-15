@@ -251,13 +251,15 @@ header {
 nav {
     background-color: #FFFFFF;
     padding: 1rem;
-    text-align: center;
+    display: flex;
+    justify-content: center; /* centraliza horizontal */
+    align-items: center;     /* centraliza vertical */
+    gap: 20px;               /* espaço fixo entre os links */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav a {
-    color: white;
-    margin: 0 1rem;
+    color: black; /* antes tava branco em fundo branco (invisível 👀) */
     padding: 0.5rem 1rem;
     border-radius: 5px;
     transition: all 0.3s ease;
