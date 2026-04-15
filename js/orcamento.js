@@ -1,54 +1,68 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Orçamento</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+// carregar produtos do JSON
+fetch("js/dados.json")
+.then(res => res.json())
+.then(dados => {
+    const select = document.getElementById("produto");
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="servico.html">Serviços</a>
-    <a href="orcamento.html">Orçamento</a>
-    <a href="contato.html">Contatos</a>
-</nav>
+    dados.forEach(item => {
+        const option = document.createElement("option");
+        option.value = item.produto;
+        option.textContent = item.produto;
+        select.appendChild(option);
+    });
+});
 
-<h2 style="text-align:center;">Solicitar Orçamento</h2>
+// produtos que terão opções extras
+const produtosComOpcao = ["COD01", "COD07", "B05", "B02"];
 
-<form id="form-orcamento" class="form-orcamento">
+const produtoSelect = document.getElementById("produto");
+const opcoesPortao = document.getElementById("opcoes-portao");
 
-    <label>Produto:</label>
-    <select id="produto" required></select>
+// mostrar ou esconder opções
+produtoSelect.addEventListener("change", () => {
+    const valor = produtoSelect.value;
 
-    <label>Largura (cm):</label>
-    <input type="number" id="largura" required>
+    if (produtosComOpcao.includes(valor)) {
+        opcoesPortao.style.display = "block";
+    } else {
+        opcoesPortao.style.display = "none";
+    }
+});
 
-    <label>Altura (cm):</label>
-    <input type="number" id="altura" required>
+// envio do formulário
+document.getElementById("form-orcamento").addEventListener("submit", (e) => {
+    e.preventDefault();
 
-    <!-- Opções extras -->
-    <div id="opcoes-portao" style="display:none;">
-        
-        <label>Cor:</label>
-        <select id="cor">
-            <option>Preto</option>
-            <option>Branco</option>
-            <option>Cinza</option>
-        </select>
+    const dados = {
+        produto: produtoSelect.value,
+        largura: document.getElementById("largura").value,
+        altura: document.getElementById("altura").value,
+        cor: document.getElementById("cor").value,
+        furos: document.getElementById("furos").checked
+    };
 
-        <label>
-            <input type="checkbox" id="furos">
-            Com furos
-        </label>
+    // mensagem profissional
+    const mensagem = `Olá! Tudo bem?
 
-    </div>
+Gostaria de solicitar um orçamento com base nas seguintes especificações:
 
-    <button type="submit">Enviar orçamento</button>
+🔧 Produto: ${dados.produto}
 
-</form>
+📏 Medidas:
+- Largura: ${dados.largura} cm
+- Altura: ${dados.altura} cm
 
-<script src="js/orcamento.js"></script>
+${produtosComOpcao.includes(dados.produto) ? `
+🎨 Detalhes adicionais:
+- Cor: ${dados.cor}
+- Furos: ${dados.furos ? "Sim" : "Não"}
+` : ""}
 
-</body>
-</html>
+Poderia, por gentileza, me informar valores e prazos?
+
+Desde já, agradeço pela atenção.`;
+
+    const numero = "5519992087705"; // 🔴 COLOQUE SEU NÚMERO AQUI
+
+    window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`);
+});
