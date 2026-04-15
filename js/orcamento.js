@@ -1,53 +1,54 @@
-// Carregar produtos do JSON
-fetch("js/dados.json")
-.then(res => res.json())
-.then(dados => {
-    const select = document.getElementById("produto");
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Orçamento</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-    dados.forEach(item => {
-        const option = document.createElement("option");
-        option.value = item.produto;
-        option.textContent = item.produto;
-        select.appendChild(option);
-    });
-});
+<nav>
+    <a href="index.html">Home</a>
+    <a href="servico.html">Serviços</a>
+    <a href="orcamento.html">Orçamento</a>
+    <a href="contato.html">Contatos</a>
+</nav>
 
-// Mostrar opções extras se for portão
-const produtoSelect = document.getElementById("produto");
-const opcoesPortao = document.getElementById("opcoes-portao");
+<h2 style="text-align:center;">Solicitar Orçamento</h2>
 
-produtoSelect.addEventListener("change", () => {
-    const valor = produtoSelect.value.toLowerCase();
+<form id="form-orcamento" class="form-orcamento">
 
-    if (valor.includes("portao")) {
-        opcoesPortao.style.display = "block";
-    } else {
-        opcoesPortao.style.display = "none";
-    }
-});
+    <label>Produto:</label>
+    <select id="produto" required></select>
 
-// Enviar orçamento
-document.getElementById("form-orcamento").addEventListener("submit", (e) => {
-    e.preventDefault();
+    <label>Largura (cm):</label>
+    <input type="number" id="largura" required>
 
-    const dados = {
-        produto: produtoSelect.value,
-        largura: document.getElementById("largura").value,
-        altura: document.getElementById("altura").value,
-        cor: document.getElementById("cor").value,
-        furos: document.getElementById("furos").checked
-    };
+    <label>Altura (cm):</label>
+    <input type="number" id="altura" required>
 
-    const mensagem = `
-Produto: ${dados.produto}
-Largura: ${dados.largura} cm
-Altura: ${dados.altura} cm
-Cor: ${dados.cor}
-Furos: ${dados.furos ? "Sim" : "Não"}
-    `;
+    <!-- Opções extras -->
+    <div id="opcoes-portao" style="display:none;">
+        
+        <label>Cor:</label>
+        <select id="cor">
+            <option>Preto</option>
+            <option>Branco</option>
+            <option>Cinza</option>
+        </select>
 
-    // Substitua pelo seu número com DDD (ex: 5511999999999)
-    const numero = "SEUNUMERO";
+        <label>
+            <input type="checkbox" id="furos">
+            Com furos
+        </label>
 
-    window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`);
-});
+    </div>
+
+    <button type="submit">Enviar orçamento</button>
+
+</form>
+
+<script src="js/orcamento.js"></script>
+
+</body>
+</html>
