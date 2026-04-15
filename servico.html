@@ -2,64 +2,59 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MS Serralheria | Catálogo de Serviços</title>
-
+    <title>Serviços</title>
     <link rel="stylesheet" href="css/style.css">
-    <link id="theme-link" rel="stylesheet" href="css/theme-light.css">
 </head>
-
 <body>
-    <header class="cabecalho">
-        <h1 class="logo">
-            <img src="js/IMG/logo/logo.png" alt="MS Serralheria">
-        </h1>
-        <p class="subtitulo">Conheça nossos produtos</p>
-    </header>
 
-    <nav>
-        <a href="home.html">Home</a> |
-        <strong>Serviços</strong> |
-        <a href="orçamento.html">Orçamentos</a> |
-        <a href="contato.html">Contatos</a>
-    </nav>
+<!-- HEADER -->
+<header>
+    <h1 class="logo">
+        <img src="js/IMG/logo/logo.png" alt="MS Serralheria">
+    </h1>
+</header>
 
-    <main id="conteudo-principal">
-        <button id="toggle-tema" type="button" aria-label="Alternar tema">
-            Tema Escuro
-        </button>
+<!-- NAV -->
+<nav>
+    <a href="home.html">Home</a> |
+    <strong>Serviços</strong> |
+    <a href="orcamento.html">Orçamento</a> |
+    <a href="contato.html">Contatos</a> |
+</nav>
 
-        <section id="catalogo">
-            <h2>Catálogo de Serviços</h2>
-            <p class="destaque">Veja alguns exemplos de novos produtos:</p>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Imagem</th>
-                        <th>Produto</th>
-                        <th>Material</th>
-                        <th>Info</th>
-                    </tr>
-                </thead>
-                <tbody id="catalogo-body">
-                </tbody>
-            </table>
-        </section>
-    </main>
+<main>
 
-    <footer id="rodape">
-        <p>
-            Trabalhamos com portões basculantes, portões de correr, motores automatizados e soluções completas em automação para residências, comércios e indústrias.
-            Oferecemos produtos de alta qualidade, instalação profissional e atendimento personalizado, garantindo mais segurança, conforto e durabilidade para o seu dia a dia.
-            Seja para instalação, manutenção ou modernização, temos a solução ideal para o seu projeto, sempre com materiais resistentes, tecnologia confiável e excelente custo-benefício.
-            👉 Seu acesso mais seguro, moderno e funcional começa aqui.
-        </p>
-    </footer>
+    <h2 style="text-align:center;">Nossos Serviços</h2>
 
-    <script src="js/tema.js" defer></script>
-    <script src="js/carrega_dados.js" defer></script>
-    <script src="js/script.js" defer></script>
+    
+    <table style="margin:auto; margin-top:20px;">
+        <thead>
+            <tr>
+                <th>Imagem</th>
+                <th>Produto</th>
+                <th>Material</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody id="catalogo-body">
+
+        </tbody>
+    </table>
+
+    <!-- DOWNLOAD DO CATÁLOGO -->
+    <div class="download-catalogo">
+        <p>Veja nosso catálogo completo:</p>
+        
+        <a href="pdf/catalogo.pdf" download>
+            📄 Baixar catálogo em PDF
+        </a>
+    </div>
+
+</main>
+
+<!-- SCRIPT -->
+<script src="js/carrega_dados.js"></script>
 
 </body>
 </html>
