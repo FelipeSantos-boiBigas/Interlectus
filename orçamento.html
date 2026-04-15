@@ -7,6 +7,14 @@
 </head>
 <body>
 
+<!-- HEADER IGUAL ÀS OUTRAS PÁGINAS -->
+<header>
+    <h1 class="logo">
+        <img src="js/IMG/logo/logo.png" alt="MS Serralheria">
+    </h1>
+</header>
+
+<!-- NAV PADRÃO -->
 <nav>
     <a href="index.html">Home</a>
     <a href="servico.html">Serviços</a>
@@ -14,39 +22,44 @@
     <a href="contato.html">Contatos</a>
 </nav>
 
-<h2 style="text-align:center;">Solicitar Orçamento</h2>
+<!-- CONTEÚDO -->
+<main>
 
-<form id="form-orcamento" class="form-orcamento">
+    <h2 style="text-align:center;">Solicitar Orçamento</h2>
 
-    <label>Produto:</label>
-    <select id="produto" required></select>
+    <form id="form-orcamento" class="form-orcamento">
 
-    <label>Largura (cm):</label>
-    <input type="number" id="largura" required>
+        <label>Produto:</label>
+        <select id="produto" required></select>
 
-    <label>Altura (cm):</label>
-    <input type="number" id="altura" required>
+        <label>Largura (cm):</label>
+        <input type="number" id="largura" required>
 
-    <!-- Opções extras -->
-    <div id="opcoes-portao" style="display:none;">
-        
-        <label>Cor:</label>
-        <select id="cor">
-            <option>Preto</option>
-            <option>Branco</option>
-            <option>Cinza</option>
-        </select>
+        <label>Altura (cm):</label>
+        <input type="number" id="altura" required>
 
-        <label>
-            <input type="checkbox" id="furos">
-            Com furos
-        </label>
+        <!-- OPÇÕES EXTRAS -->
+        <div id="opcoes-portao" style="display:none;">
+            
+            <label>Cor:</label>
+            <select id="cor">
+                <option>Preto</option>
+                <option>Branco</option>
+                <option>Cinza</option>
+            </select>
 
-    </div>
+            <label>
+                <input type="checkbox" id="furos">
+                Com furos
+            </label>
 
-    <button type="submit">Enviar orçamento</button>
+        </div>
 
-</form>
+        <button type="submit">Enviar orçamento</button>
+
+    </form>
+
+</main>
 
 <script src="js/orcamento.js"></script>
 
