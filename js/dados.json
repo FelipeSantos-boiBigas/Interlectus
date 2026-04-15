@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "imagem": "IMG/correr/cod1.jpg",
+    "imagem": "js/IMG/correr/cod1.png",
     "produto": "COD01",
     "material": "Alumínio",
     "info": "Portão de correr de coloração branca sem furos"
@@ -9,7 +9,7 @@
   
   {
     "id": 2,
-    "imagem": "IMG/correr/cod2.jpg",
+    "imagem": "js/IMG/correr/cod2.png",
     "produto": "COD02",
     "material": "Alumínio",
     "info": "Portão de correr de coloração preta com furos"
@@ -17,7 +17,7 @@
   
   {
     "id": 3,
-    "imagem": "IMG/basculante/b05.jpg",
+    "imagem": "js/IMG/basculante/b05.png",
     "produto": "B05",
     "material": "Alumínio",
     "info": "Portão basculante de coloração preta personalizado superior"
@@ -25,7 +25,7 @@
   
   {
     "id": 4,
-    "imagem": "IMG/basculante/b02.jpg",
+    "imagem": "js/IMG/basculante/b02.png",
     "produto": "B02",
     "material": "Alumínio",
     "info": "Portão basculante de coloração branca com personalização simples"
@@ -33,7 +33,7 @@
   
   {
     "id": 5,
-    "imagem": "IMG/gp/g01.jpg",
+    "imagem": "js/IMG/gp/g01.png",
     "produto": "G01",
     "material": "Alumínio",
     "info": "Guarda corpo simples de coloração preta"
@@ -41,7 +41,7 @@
   
   {
     "id": 6,
-    "imagem": "IMG/gp/g02.jpg",
+    "imagem": "js/IMG/gp/g02.png",
     "produto": "G02",
     "material": "Alumínio",
     "info": "Guarda corpo simples de coloração preta"
@@ -49,7 +49,7 @@
   
   {
     "id": 7,
-    "imagem": "IMG/cobertura/cb01.jpg",
+    "imagem": "js/IMG/cobertura/cb01.png",
     "produto": "CB01",
     "material": "Alumínio",
     "info": "Cobeertura"
@@ -57,7 +57,7 @@
   
   {
     "id": 8,
-    "imagem": "IMG/cobertura/cb04.jpg",
+    "imagem": "js/IMG/cobertura/cb04.png",
     "produto": "CB04",
     "material": "Alumínio",
     "info": "Cobeertura"
