@@ -259,7 +259,7 @@ nav {
 }
 
 nav a {
-    color: black; /* antes tava branco em fundo branco (invisível 👀) */
+    color: white; /* antes tava branco em fundo branco (invisível 👀) */
     padding: 0.5rem 1rem;
     border-radius: 5px;
     transition: all 0.3s ease;
