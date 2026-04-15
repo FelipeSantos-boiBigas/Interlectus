@@ -12,13 +12,13 @@ fetch("js/dados.json")
     });
 });
 
-// produtos que terão opções extras
+// produtos com opções extras
 const produtosComOpcao = ["COD01", "COD07", "B05", "B02"];
 
 const produtoSelect = document.getElementById("produto");
 const opcoesPortao = document.getElementById("opcoes-portao");
 
-// mostrar ou esconder opções
+// mostrar/esconder opções
 produtoSelect.addEventListener("change", () => {
     const valor = produtoSelect.value;
 
@@ -41,7 +41,6 @@ document.getElementById("form-orcamento").addEventListener("submit", (e) => {
         furos: document.getElementById("furos").checked
     };
 
-    // mensagem profissional
     const mensagem = `Olá! Tudo bem?
 
 Gostaria de solicitar um orçamento com base nas seguintes especificações:
@@ -62,7 +61,7 @@ Poderia, por gentileza, me informar valores e prazos?
 
 Desde já, agradeço pela atenção.`;
 
-    const numero = "5519992087705"; // 🔴 COLOQUE SEU NÚMERO AQUI
+    const numero = "5519999999999"; // COLOQUE SEU NÚMERO
 
     window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`);
 });
